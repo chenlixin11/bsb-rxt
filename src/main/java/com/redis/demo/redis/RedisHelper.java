@@ -22,7 +22,7 @@ class RedisHelper {
 
     public RedisHelper() {
         jedis = new Jedis("localhost");
-        //jedis.auth("123456");
+        jedis.auth("123456");
     }
 
     public void testString(){
