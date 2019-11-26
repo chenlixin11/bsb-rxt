@@ -7,7 +7,7 @@ package com.redis.demo.po;
  * 创建时间：2019/11/22 09:41
  * 创 建 人：chenlixin
  */
-public class Student implements Comparable<Student>{
+public class Student implements Comparable<Student>,Cloneable{
     private Integer age;
     private String name;
 
@@ -39,6 +39,13 @@ public class Student implements Comparable<Student>{
                 ", name='" + name + '\'' +
                 '}';
     }
+
+    @Override
+    public Student clone() throws CloneNotSupportedException {
+        // TODO Auto-generated method stub
+        return (Student)super.clone();
+    }
+
 
     @Override
     public int compareTo(Student o) {
