@@ -1,6 +1,6 @@
-package com.redis.demo;
+package com.demo;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest

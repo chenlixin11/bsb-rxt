@@ -1,4 +1,4 @@
-package com.redis.demo.po;
+package com.demo.po;
 
 /**
  * 项目名称：demo
@@ -7,7 +7,7 @@ package com.redis.demo.po;
  * 创建时间：2019/11/22 09:41
  * 创 建 人：chenlixin
  */
-public class Student implements Comparable<Student>,Cloneable{
+public class Student implements Comparable<Student>,Cloneable{ //对象克隆
     private Integer age;
     private String name;
 

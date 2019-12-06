@@ -1,4 +1,4 @@
-package com.redis.demo.test;
+package com.demo.test;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

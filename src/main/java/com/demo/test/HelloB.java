@@ -1,4 +1,4 @@
-package com.redis.demo.test;
+package com.demo.test;
 
 /**
  * 项目名称：demo

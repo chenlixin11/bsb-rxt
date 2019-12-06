@@ -1,4 +1,4 @@
-package com.redis.demo.redis;
+package com.demo.redis;
 
 import redis.clients.jedis.Jedis;
 
@@ -22,11 +22,12 @@ class RedisHelper {
 
     public RedisHelper() {
         jedis = new Jedis("localhost");
-        jedis.auth("123456");
+        //jedis.auth("123456");
     }
 
     public void testString(){
-        String result = jedis.set("java", "aa");
+        String result = jedis.set("java", "bb");
+      jedis.set("yi", "bb");
         String value = jedis.get("java");
         System.out.println(result);
         System.out.println(value);

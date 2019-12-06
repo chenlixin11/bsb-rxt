@@ -1,6 +1,6 @@
-package com.redis.demo.collection;
+package com.demo.collection;
 
-import com.redis.demo.po.Student;
+import com.demo.po.Student;
 
 import java.util.*;
 

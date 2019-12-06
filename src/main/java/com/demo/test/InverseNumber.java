@@ -1,4 +1,4 @@
-package com.redis.demo.test;
+package com.demo.test;
 
 import java.nio.Buffer;
 import java.util.Scanner;
