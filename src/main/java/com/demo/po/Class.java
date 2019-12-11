@@ -1,5 +1,7 @@
 package com.demo.po;
 
+import lombok.Data;
+
 /**
  * 
  * 
@@ -7,24 +9,14 @@ package com.demo.po;
  * 
  * @date 2019-12-06
  */
+@Data
 public class Class {
     private Integer id;
 
     private String className;
 
-    public Integer getId() {
-        return id;
-    }
+    private Integer age;
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
+    private String schoolName;
 
-    public String getClassName() {
-        return className;
-    }
-
-    public void setClassName(String className) {
-        this.className = className == null ? null : className.trim();
-    }
 }

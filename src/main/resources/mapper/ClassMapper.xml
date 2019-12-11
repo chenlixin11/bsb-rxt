@@ -5,11 +5,19 @@
     <resultMap id="BaseResultMap" type="com.demo.po.Class" >
         <id column="id" property="id" jdbcType="INTEGER" />
         <result column="class_name" property="className" jdbcType="VARCHAR" />
+        <result column="age" property="age" jdbcType="INTEGER" />
+        <result column="school_name" property="schoolName" jdbcType="VARCHAR" />
     </resultMap>
 
     <sql id="Base_Column_List" >
         id, class_name
     </sql>
+    <select id="selectA" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from class
+
+    </select>
 
 
 </mapper>
